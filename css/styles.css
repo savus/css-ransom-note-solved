@@ -94,6 +94,40 @@ body {
   font-family: "Bona Nova SC", serif;
 }
 
+.big-bold-underline {
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.small-thin-overline {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: overline;
+  text-transform: lowercase;
+}
+
+.bulky-lines {
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline overline;
+  text-transform: uppercase;
+}
+
+.medium-normal-bland {
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.thick-strikethrough {
+  text-decoration: line-through;
+  text-decoration-thickness: 10px;
+  text-decoration-color: rgb(207, 18, 207, 0.5);
+}
+
 /* DID word */
 
 .didDLetter {
