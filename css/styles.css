@@ -82,6 +82,18 @@ body {
 }
 
 /* custon styles */
+.piazolla {
+  font-family: "Piazolla", sans-serif;
+}
+
+.ceviche {
+  font-family: "Ceviche One", sans-serif;
+}
+
+.dots {
+  font-family: "Raleway Dots", sans-serif;
+}
+
 .smooch-sans {
   font-family: "Smooch Sans", serif;
 }
@@ -102,14 +114,14 @@ body {
 }
 
 .small-thin-overline {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-decoration: overline;
   text-transform: lowercase;
 }
 
 .bulky-lines {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline overline;
   text-transform: uppercase;
@@ -126,6 +138,41 @@ body {
   text-decoration: line-through;
   text-decoration-thickness: 10px;
   text-decoration-color: rgb(207, 18, 207, 0.5);
+}
+
+.massive-squiggly-underline-overline {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Playwrite IN", serif;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+
+.dotted-lines-up-and-down {
+  text-decoration-line: overline underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 10px;
+}
+
+.wavy-underline {
+  text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-thickness: 12px;
+}
+
+.didDLetter,
+.didDTwoLetter {
+}
+
+.didILetter,
+.theHLetter {
+}
+
+.theTLetter,
+.theELetter {
 }
 
 /* DID word */
