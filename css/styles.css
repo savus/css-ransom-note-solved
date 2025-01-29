@@ -165,150 +165,212 @@ body {
 
 .didDLetter,
 .didDTwoLetter {
+  font-size: 26px;
+  text-decoration-color: rgb(220, 20, 203);
 }
 
 .didILetter,
 .theHLetter {
+  font-size: 21px;
 }
 
 .theTLetter,
 .theELetter {
+  font-size: 30px;
+}
+
+.frontendOLetter,
+.developerELetter,
+.takeELetter,
+.upULetter,
+.gardeningALetter,
+.gardeningDLetter {
+  font-size: 26px;
+  font-weight: 500;
+  color: goldenrod;
+}
+
+.theyHLetter,
+.theyELetter,
+.wantedALetter,
+.wantedNLetter,
+.toTLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.improveOLetter .improveELetter,
+.theirRLetter,
+.rootRLetter,
+.rootOTwoLetter,
+.skillsLTwoLetter,
+.skillsLLetter {
+  font-size: 33px;
+  font-weight: 400;
+  color: rgba(66, 250, 96, 0.856);
 }
 
 /* DID word */
 
 .didDLetter {
+  color: rgba(100, 250, 96);
 }
 
 .didILetter {
+  color: rgb(62, 163, 177);
 }
 
 .didDTwoLetter {
+  color: rgb(39, 233, 223);
 }
 
 /* THE word */
 
 .theTLetter {
+  color: rgb(240, 39, 39);
 }
 
 .theHLetter {
+  color: rgb(204, 230, 61);
 }
 
 .theELetter {
+  color: rgb(204, 133, 25);
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  color: rgb(189, 25, 204);
 }
 
 .frontendRLetter {
-}
-
-.frontendOLetter {
+  font-size: 27px;
+  color: #00f;
+  text-shadow: rgba(66, 250, 96) -1px -1px 3px;
 }
 
 .frontendNLetter {
+  color: rgb(39, 233, 223);
 }
 
 .frontendTLetter {
+  font-size: 28px;
+  color: brown;
 }
 
 .frontendELetter {
+  color: peru;
 }
 
 .frontendNTwoLetter {
+  color: powderblue;
 }
 
 .frontendDLetter {
+  color: plum;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  color: blueviolet;
 }
 .developerELetter {
+  color: burlywood;
 }
 .developerVLetter {
+  color: moccasin;
 }
 .developerETwoLetter {
+  color: chartreuse;
 }
 .developerLLetter {
+  color: cyan;
 }
 .developerOLetter {
+  color: crimson;
 }
 .developerPLetter {
+  color: navajowhite;
 }
 .developerEThreeLetter {
+  color: tomato;
 }
 .developerRLetter {
+  color: indigo;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  color: ivory;
 }
 .takeALetter {
+  color: gold;
 }
 .takeKLetter {
+  color: fuchsia;
 }
 .takeELetter {
+  color: blanchedalmond;
 }
 
 /* UP word */
-
-.upULetter {
-}
 .upPLetter {
+  color: palegreen;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  color: aquamarine;
 }
 .gardeningALetter {
+  color: coral;
 }
 .gardeningRLetter {
+  color: darkred;
 }
 .gardeningDLetter {
+  color: darkmagenta;
 }
 .gardeningELetter {
+  color: darkolivegreen;
 }
 .gardeningNLetter {
+  color: mediumblue;
 }
 .gardeningILetter {
+  color: olive;
 }
 .gardeningNTwoLetter {
+  color: hotpink;
 }
 .gardeningGTwoLetter {
+  color: honeydew;
 }
 
 /* BECAUSE word */
 
-.becauseBLetter {
+.because span:nth-child(even) {
+  color: khaki;
 }
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
+
+.because span:nth-child(odd) {
+  color: rgb(32, 172, 67);
 }
 
 /* THEY word */
 
-.theyTLetter {
+.they span:nth-child(1) {
+  color: rgb(124, 8, 134);
+  text-shadow: rgb(0, 252, 239) -2px -2px 1px;
 }
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
+
+.they span:nth-last-child(1) {
+  color: rgb(230, 137, 61);
 }
 
 /* WANTED word */
